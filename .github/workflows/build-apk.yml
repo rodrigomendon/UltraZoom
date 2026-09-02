@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q UltraZoom-build-ready.zip
+          unzip -q UltraZoom-build-fixed.zip
           ls -la
           find UltraZoom -maxdepth 3 -type f | sort
 
