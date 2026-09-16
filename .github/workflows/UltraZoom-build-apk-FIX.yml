@@ -24,8 +24,8 @@ jobs:
           rm -rf "$RUNNER_TEMP/ultrazoom-project"
           mkdir -p "$RUNNER_TEMP/ultrazoom-project"
           archive=""
-          if [ -f "UltraZoom-00-v12.3.0-ZOOM-GEOMETRY-ENGINE.zip" ]; then
-            archive="UltraZoom-00-v12.3.0-ZOOM-GEOMETRY-ENGINE.zip"
+          if [ -f "UltraZoom-00-v12.3.0-ZOOM-GEOMETRY-ENGINE-BUILD-FIX.zip" ]; then
+            archive="UltraZoom-00-v12.3.0-ZOOM-GEOMETRY-ENGINE-BUILD-FIX.zip"
           elif [ -f "UltraZoom-build-fixed.zip" ]; then
             archive="UltraZoom-build-fixed.zip"
           fi
