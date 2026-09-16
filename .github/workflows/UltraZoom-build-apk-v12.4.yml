@@ -24,7 +24,7 @@ jobs:
           set -euo pipefail
           rm -rf "$RUNNER_TEMP/ultrazoom-project"
           mkdir -p "$RUNNER_TEMP/ultrazoom-project"
-          archive="UltraZoom-00-v12.4.0-AUTODIAGNOSTIC.zip"
+          archive="UltraZoom-00-v12.4.0-AUTODIAGNOSTIC-FIXED.zip"
           if [ ! -f "$archive" ]; then
             echo "ERROR: $archive not found in repository root."
             echo "ZIPs found in repository root:"
